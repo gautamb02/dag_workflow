@@ -1,0 +1,5 @@
+db:
+  mongodb:
+    dag_workflow:
+      uri: "mongodb://localhost:27017"
+      db: "dag_workflow"
