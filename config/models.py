@@ -14,3 +14,7 @@ class DBsConfig(BaseModel):
 
 class Config(BaseModel):
     db: DBsConfig
+
+class Error:
+    def __init__(self, message: str):
+        self.message = message
